@@ -1,23 +1,23 @@
 package com.how2java.tmall.pojo;
 
 public class Category {
-	private Integer Id;
-	
-	private String name;
+    private Integer id;
 
-	public Integer getId() {
-		return Id;
-	}
+    private String name;
 
-	public void setId(Integer id) {
-		Id = id;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setName(String name) {
-		this.name = name == null ? null : name.trim();
-	}	
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name == null ? null : name.trim();
+    }
 }
